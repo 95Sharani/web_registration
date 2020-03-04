@@ -87,7 +87,7 @@
 
       <!-- Nav Item - Utilities Collapse Menu -->
       <li class="nav-item">
-        <a class="nav-link collapsed" href="customer.php" >
+        <a class="nav-link collapsed" href="#" >
           <i class="fa fa-user-circle"></i>
           <span>Customers</span>
         </a>
@@ -103,10 +103,10 @@
         </a>
         <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
           <div class="bg-white py-2 collapse-inner rounded">
-            <a class="collapse-item" href="driver.php">
+            <a class="collapse-item" href="#">
               <i class="fas fa-id-badge"></i>  Drivers</a>
 
-            <a class="collapse-item" href="maintain.php">
+            <a class="collapse-item" href="#">
              <i class="fas fa-fw fa-wrench"></i> Maintanance Team</a>
           </div>
         </div>
@@ -116,7 +116,7 @@
     
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="vehicle.php">
+        <a class="nav-link" href="#">
           <i class="fa fa-car"></i>
           <span>Vehicles</span></a>
       </li>
@@ -125,7 +125,7 @@
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="payment.php">
+        <a class="nav-link" href="#">
           <i class="fa fa-credit-card"></i>
           <span>Payment</span></a>
       </li>
@@ -133,7 +133,7 @@
     
           <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="supplier.php">
+        <a class="nav-link" href="#">
           <i class="fa fa-user-circle"></i>
           <span>Suppliers</span></a>
       </li>
@@ -151,15 +151,10 @@
   <!-- Core plugin JavaScript-->
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-  <!-- Custom scripts for all pages-->
-  <script src="js/sb-admin-2.min.js"></script>
 
   <!-- Page level plugins -->
   <script src="vendor/chart.js/Chart.min.js"></script>
 
-  <!-- Page level custom scripts -->
-  <script src="js/demo/chart-area-demo.js"></script>
-  <script src="js/demo/chart-pie-demo.js"></script>
   
 
 </body>
