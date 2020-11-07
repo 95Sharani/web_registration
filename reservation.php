@@ -18,8 +18,7 @@
 
      
         <h2>Reservations</h2>
-     
-  </div>
+    </div>
 
   <div class="p-box"></div>
     <form class="my-form" action="php/res.php" method="POST">
