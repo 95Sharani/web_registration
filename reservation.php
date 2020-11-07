@@ -9,7 +9,6 @@
   <!--link href="css/sb-admin-2.min.css" rel="stylesheet"-->
 <link rel ="stylesheet" type="text/css" href="CSS/reservations.css">
   
-
 </head>
 <body >
 
@@ -29,7 +28,8 @@
           <div class ="vehicle-no">
               <p>Vehicle No:</p>
               <input type="text" name="vehicle_no" placeholder= "Enter Vehicle No.">
-          </div>
+           </div>
+          
           <div class ="cus-id">
               <p>Customer Id:</p>
               <input type="text" name="cus_id" placeholder= "Enter Customer Id">
@@ -38,24 +38,26 @@
            <div class ="date">
               <p>Start Date:</p>
               <input type="date" name="start_date" placeholder= "Enter the Starting date">
-          </div>
+           </div>
+          
            <div class ="time">
               <p>Time:</p>
               <input type="time" name="time" placeholder= "Enter the Time">
-          </div>
+           </div>
+          
            <div class ="driver-id">
               <p>Driver Id:</p>
               <input type="text" name="emp_id" placeholder= "Enter the Driver Id">
-          </div>
-          <div class ="submit" >
-              <input type="submit" name="submit" value="Submit">
-          </div>
-          <div class ="view">
-              <input type ="button" name="view" value="View" onclick="window.location='views/res_view.php'">
-          </div>
-          <div class ="clear">
-              <input type="reset" name="clear" value="Clear all">
-          </div>
+           </div>
+           <div class ="submit" >
+             <input type="submit" name="submit" value="Submit">
+           </div>
+           <div class ="view">
+             <input type ="button" name="view" value="View" onclick="window.location='views/res_view.php'">
+           </div>
+           <div class ="clear">
+             <input type="reset" name="clear" value="Clear all">
+           </div>
         </div>
     </form>
   
